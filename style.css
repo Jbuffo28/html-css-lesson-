@@ -25,7 +25,7 @@ Every element has a margin, border, and padding
 */
 
 /* * {
-    margin: 0;
+    margin: 0;l
     padding: 0;
     border: 0;
 } */
@@ -36,18 +36,34 @@ body {
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #2c3e50 !important;
+    width: 100vw;
+}
+
+.menu {
+    float: right;
 }
 
 .menu-options {
     list-style-type: none;
+    
 }
 
 .nav-link {
     text-decoration: none;
     color: whitesmoke;
+    background-color: red;
 }
 
 .nav-link:hover {
     color: #2980b9;
+}
+.form-display {
+    display: block;
+}
+#email-input {
+    width: 15em;
 }
